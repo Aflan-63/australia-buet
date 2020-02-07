@@ -1,29 +1,29 @@
 #apppage .gradient {
   background: -moz-linear-gradient(
     45deg,
-    rgba(161, 27, 72, 0.7),
-    rgba(128, 0, 32, 0.925) 100%
+    #d50000,
+    rgba(128, 0, 32, 0.925) 10%
   );
   background: -webkit-linear-gradient(
     45deg,
-    rgba(161, 27, 72, 0.7),
-    rgba(128, 0, 32, 0.925) 100%
+    #d50000,
+    rgba(128, 0, 32, 0.925) 0%
   );
   background: -webkit-gradient(
     linear,
     45deg,
-    from(rgba(161, 27, 72, 0.7)),
+    from(#d50000),
     to(rgba(128, 0, 32, 0.925))
   );
   background: -o-linear-gradient(
     45deg,
-    rgba(235, 24, 24, 0.7),
-    rgba(128, 0, 32, 0.925) 10%
+    rgba(#d50000),
+    rgba(128, 0, 32, 0.925) 1000%
   );
   background: linear-gradient(
     45deg,
-    rgba(235, 24, 24, 0.7),
-    rgba(128, 0, 32, 0.925) 100%
+    #21212166,
+    #800020ec 100%
   );
 }
 

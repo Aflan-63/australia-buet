@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Home from './Home'
 import OurCommunity from '../images/our_community.png'
 import CardOne from '../images/mission_card.png'
 import CardTwo from '../images/objective_card.png'
@@ -16,7 +17,7 @@ export default class OurStoryCard extends Component {
             <MDBCol>
                 <MDBCard style={{ width: "100%" }}>
                     <div style={{ background: 'DarkRed' }}>
-                        <MDBCardImage className="img-fluid" style={{ opacity: '0.8' }} src={CardOne} waves />
+                        <img className="img-fluid" style={{ opacity: '0.8' }} src={CardOne} waves />
                     </div>
                     <MDBCardBody>
                         <MDBCardTitle style={{ fontWeight: "bold", fontFamily: "Arcon" }}>OUR MISSION</MDBCardTitle>
@@ -32,7 +33,7 @@ export default class OurStoryCard extends Component {
             <MDBCol>
                 <MDBCard style={{ width: "100%" }}>
                     <div style={{ background: 'DarkRed' }}>
-                        <MDBCardImage className="img-fluid" style={{ opacity: '0.8' }} src={CardTwo} waves />
+                        <img className="img-fluid" style={{ opacity: '0.8' }} src={CardTwo} waves />
                     </div>
                     <MDBCardBody>
                         <MDBCardTitle style={{ fontWeight: "bold", fontFamily: "Arcon" }}>OUR OBJECTIVE</MDBCardTitle>
@@ -48,7 +49,7 @@ export default class OurStoryCard extends Component {
             <MDBCol>
                 <MDBCard style={{ width: "100%" }}>
                     <div style={{ background: 'DarkRed' }}>
-                        <MDBCardImage className="img-fluid" style={{ opacity: '0.8' }} src={CardThree} waves />
+                        <img className="img-fluid" style={{ opacity: '0.8' }} src={CardThree} waves />
                     </div>
                     <MDBCardBody>
                         <MDBCardTitle style={{ fontWeight: "bold", fontFamily: "Arcon" }}>OUR HISTORY</MDBCardTitle>
@@ -61,28 +62,29 @@ export default class OurStoryCard extends Component {
             </MDBCol>
 
         return (
+
             <div>
                 <div style={{ margin: '1px' }}>
-                    <MDBAnimation type="fadeInUp" delay="0.3s" color="red darken-4"
-                    >
-                        <div style={{ width: '100%', position: 'absolute', left: '12%' }}>
-                            <div style={{ float: 'left', width: '25%' }} >{cardOne}</div>
-                            <div style={{ float: 'left', width: '25%' }}>{cardTwo}</div>
-                            <div style={{ float: 'left', width: '25%' }}>{cardThree}</div>
-                            <br style={{ clear: 'left' }} />
-                        </div>
-                    </MDBAnimation>
+
+                    <div style={{ width: '100%', position: 'absolute', left: '12%' }}>
+                        <div style={{ float: 'left', width: '25%' }} >{cardOne}</div>
+                        <div style={{ float: 'left', width: '25%' }}>{cardTwo}</div>
+                        <div style={{ float: 'left', width: '25%' }}>{cardThree}</div>
+                        <br style={{ clear: 'left' }} />
+                    </div>
+
                 </div>
                 <div style={{ margin: '10px' }}>
                     <div className="text-block">
-                        {/* <h1 style={{ marginTop: '800px',opacity: '0.9' }}>Our Community</h1> */}
+
                         <h1 style={{ fontFamily: 'Nexa', marginTop: '10px', paddingLeft: '10%', fontSize: '75px', opacity: '0.9', fontWeight: "bold" }}>Our Community</h1>
                         <img src={OurCommunity} style={{ opacity: '0.5' }}></img>
 
+
                     </div>
                 </div>
-
             </div>
+
 
         )
     }

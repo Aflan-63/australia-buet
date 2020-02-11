@@ -1,8 +1,8 @@
 .text-block {
     position: absolute;
+    text-align: center;
     top:275%; 
     right:0%;
-    background-color: white;
     color: black;
 
   }

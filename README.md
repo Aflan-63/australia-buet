@@ -1,68 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Uploading to git-hub
 
-## Available Scripts
+`git init`
 
-In the project directory, you can run:
+`git add .` -> Dot indicates all files, one can use '-A'
 
-### `npm start`
+`git commit -m version5.0` -> version5.0 is the name
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+`git status` 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+`git push`
 
-### `npm test`
+`git remote add australia-buet https://github.com/Aflan-63/australia-buet.git`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`git push australia-buet`
 
-### `npm run build`
+`git push --set-upstream australia-buet version5.0`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Progress so far
 
-### `npm run eject`
+![](C:\Users\User\Desktop\github\83645257_2333452676946571_1405709256581185536_n.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> Changed the color and the animation.
+>
+> Added logo in the landing page.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![](C:\Users\User\Desktop\github\84663098_858954367880755_3895522164807303168_n.png)
 
-## Learn More
+> Added a colored Buet logo
+>
+> Edited the mirror effect. Changed the color slightly
+>
+> Changed font
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![](C:\Users\User\Desktop\github\83381484_176358850264309_987638269564944384_n.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> This is completely new, 
+>
+> Added Card View
+>
+> Created the images and added overlay of maroon 10% opacity
+>
+> Added text field.
+>
+> ![]()
 
-### Code Splitting
+![85170091_222737755559256_8272396046215151616_n](C:\Users\User\Desktop\github\85170091_222737755559256_8272396046215151616_n.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+> This section is added, it will be updated with few album photos (stack type)
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+### To-do
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- [ ] Current Events
+- [ ] Executive
+- [ ] Google Map
 
-### Advanced Configuration
+### Completed
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- [x] ~~Entry~~
+- [x] ~~Our Story~~
+- [x] ~~Card View Our Story~~
+- [x] ~~Our Community (Partially)~~
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
